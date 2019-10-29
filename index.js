@@ -1,16 +1,5 @@
 // Code your solution in this file!
 
-// // function totalRevenue(array) {
-// //   let newArray = [];
-// //   array.forEach(function (driver) {
-// //     newArray.push(driver.revenue);
-// //   });
-// //   let sum = newArray.reduce(function (total, amount) {
-// //     return total + amount; 
-// //   });
-// //   return sum;
-// // }
-
 
 function logDriverNames(driversArray) {
   driversArray.forEach(function(driver) {
@@ -34,6 +23,7 @@ function driversByRevenue(driversArray) {
     return a.revenue - b.revenue;
   });
 }
+
 // function driversByRevenue(driversArray) {
 //   return driversArray.slice().sort(function (driverOne, driverTwo) {
 //       return driverOne.revenue - driverTwo.revenue
