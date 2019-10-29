@@ -84,8 +84,10 @@
 // }
 
 
-function logDriverNames() {
-  
+function logDriverNames(driversArray) {
+  forEach driver of driversArray {
+  console.log(driver.name)
+  }
 }
 
 
