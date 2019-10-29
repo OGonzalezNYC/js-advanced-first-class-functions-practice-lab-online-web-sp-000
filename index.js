@@ -59,11 +59,6 @@
 // // }
 
 
-// function averageRevenue(array) {
-//   return totalRevenue(array) / array.length;
-// }
-
-
 function logDriverNames(driversArray) {
   driversArray.forEach(function(driver) {
   console.log(driver.name)
