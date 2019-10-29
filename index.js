@@ -73,6 +73,11 @@ function driversByRevenue(driversArray) {
     return a.revenue - b.revenue;
   });
 }
+// function driversByRevenue(driversArray) {
+//   return driversArray.slice().sort(function (driverOne, driverTwo) {
+//       return driverOne.revenue - driverTwo.revenue
+//   })
+// }
 
 
 function driversByName(driversArray) {
