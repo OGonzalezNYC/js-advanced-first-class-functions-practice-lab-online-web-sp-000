@@ -91,8 +91,10 @@ function logDriverNames(driversArray) {
 }
 
 
-function logDriversByHometown() {
-  
+function logDriversByHometown(driversArray, location) {
+  driversArray.sort(function(driver) {
+    console.log(driver.hometown === location);
+  })
 }
 
 
