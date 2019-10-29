@@ -125,5 +125,5 @@ function totalRevenue(driversArray) {
 
 
 function averageRevenue(driversArray) {
-  return totalRevenue(driversArray)/driversArray.length;
+  return totalRevenue(driversArray) / driversArray.length;
 }
