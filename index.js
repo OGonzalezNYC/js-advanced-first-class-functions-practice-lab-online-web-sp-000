@@ -101,7 +101,7 @@ function logDriversByHometown(driversArray, location) {
 
 
 function driversByRevenue(driversArray) {
-  newArray = [];
+  newArray = driversArray.slice();
   newArray = driversArray.sort(function (a, b) {
     return a.revenue - b.revenue;
   });
