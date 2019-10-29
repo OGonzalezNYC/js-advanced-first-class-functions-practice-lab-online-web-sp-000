@@ -85,7 +85,7 @@
 
 
 function logDriverNames(driversArray) {
-  forEach driver of driversArray {
+  driversArray.forEach(driver) of driversArray {
   console.log(driver.name)
   }
 }
