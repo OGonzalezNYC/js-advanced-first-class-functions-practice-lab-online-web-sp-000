@@ -1,13 +1,5 @@
 // Code your solution in this file!
 
-
-// function driversByRevenue(driversArray) {
-//   return driversArray.slice().sort(function (driverOne, driverTwo) {
-//       return driverOne.revenue - driverTwo.revenue
-//   })
-// }
-
-
 // // function driversByRevenue(array) {
 // //   newArray = [];
 // //   array.forEach(function(driver) {
