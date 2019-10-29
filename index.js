@@ -92,7 +92,7 @@ function logDriverNames(driversArray) {
 
 
 function logDriversByHometown(driversArray, location) {
-  driversArray.sort(function(driver) {
+  driversArray.forEach(function(driver) {
     if (driver.hometown === location) {
       console.log(driver.name);
     }
