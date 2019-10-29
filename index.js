@@ -1,10 +1,4 @@
 // Code your solution in this file!
-  
-// function totalRevenue(array) {
-//   return array.reduce(function(sum, driver) {
-//     return driver.revenue + sum
-//   }, 0) // What's the signifcance and purpose of this 0?
-// }
 
 // // function totalRevenue(array) {
 // //   let newArray = [];
