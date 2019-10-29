@@ -1,20 +1,5 @@
 // Code your solution in this file!
 
-// // function driversByRevenue(array) {
-// //   newArray = [];
-// //   array.forEach(function(driver) {
-// //     newArray.push(driver);
-// //   })
-// //   newArray.sort(function (a, b) { 
-// //     if (a.revenue > b.revenue) {
-// //         return 1
-// //     } else { return -1 
-// //       }
-// //   })
-// //   return newArray;
-// // }  
-
-
 // function driversByName(array) {
 //   return array.slice().sort(function (driverA, driverB) {
 //     return driverA.name.localeCompare(driverB.name)
