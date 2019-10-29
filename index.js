@@ -43,7 +43,7 @@ function totalRevenue(driversArray) {
   return driversArray.reduce (function (sum, 
     driver) {
     return sum + driver.revenue;
-  }, 0);
+  });
 }
 
 
