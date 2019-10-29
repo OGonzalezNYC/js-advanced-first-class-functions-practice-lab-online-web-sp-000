@@ -109,18 +109,17 @@ function driversByRevenue(driversArray) {
 
 
 function driversByName(driversArray) {
-//   return driversArray.sort(function(a, b) {
-//     return a.name - b.name;
-//   });
-// }
+  return driversArray.sort(function(a, b) {
+    return a.name - b.name;
+  });
+}
 
 
-// function totalRevenue() {
+function totalRevenue() {
   
-// }
+}
 
 
-// function averageRevenue() {
+function averageRevenue() {
   
-// }
-// 
+}
