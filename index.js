@@ -1,16 +1,4 @@
 // Code your solution in this file!
-
-// // function driversByName(array) {
-// //   newArray = [];
-// //   array.forEach(function(driver) {
-// //     newArray.push(driver);
-// //   })
-// //   newArray.sort(function (a, b) {
-// //     return a.name.localeCompare(b.name)
-// //   })
-// //   return newArray;
-// // }
-
   
 // function totalRevenue(array) {
 //   return array.reduce(function(sum, driver) {
