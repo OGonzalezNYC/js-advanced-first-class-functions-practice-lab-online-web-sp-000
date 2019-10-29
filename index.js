@@ -109,7 +109,8 @@ function driversByRevenue(driversArray) {
 
 
 function driversByName(driversArray) {
-  return driversArray.sort(function(a, b) {
+  newArray = driversArray.slice();
+  return newArray.sort(function (a, b) {
     return a.name - b.name;
   });
 }
