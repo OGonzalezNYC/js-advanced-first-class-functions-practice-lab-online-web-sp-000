@@ -111,7 +111,7 @@ function driversByRevenue(driversArray) {
 function driversByName(driversArray) {
   newArray = driversArray.slice();
   return newArray.sort(function (a, b) {
-    return a.localeCompare(b);
+    return a.name.localeCompare(b.name);
   });
 }
 
