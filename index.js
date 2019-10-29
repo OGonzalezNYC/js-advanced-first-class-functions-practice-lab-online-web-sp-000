@@ -1,11 +1,5 @@
 // Code your solution in this file!
 
-// function driversByName(array) {
-//   return array.slice().sort(function (driverA, driverB) {
-//     return driverA.name.localeCompare(driverB.name)
-//   });
-// }
-
 // // function driversByName(array) {
 // //   newArray = [];
 // //   array.forEach(function(driver) {
