@@ -116,8 +116,10 @@ function driversByName(driversArray) {
 }
 
 
-function totalRevenue() {
-  
+function totalRevenue(driversArray) {
+  return driversArray.reduce(function(driver) {
+    driver.revenue;
+  });
 }
 
 
