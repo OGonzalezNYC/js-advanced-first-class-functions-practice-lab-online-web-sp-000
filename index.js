@@ -105,7 +105,6 @@ function driversByRevenue(driversArray) {
   return newArray.sort(function (a, b) {
     return a.revenue - b.revenue;
   });
-  // return newArray;
 }
 
 // items.sort(function (a, b) {
