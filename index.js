@@ -8,12 +8,6 @@
 // }
 
 
-// function driversByRevenue(array) {
-//   return array.slice().sort(function (driverOne, driverTwo) {
-//     return driverOne.revenue - driverTwo.revenue;
-//   });
-// }
-
 // // function driversByRevenue(array) {
 // //   newArray = [];
 // //   array.forEach(function(driver) {
